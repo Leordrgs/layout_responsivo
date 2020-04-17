@@ -1,0 +1,26 @@
+@media (min-width: 992px) {
+    #s1 { width:30%; }
+    #s2 { width:30%; }
+    #s3 { width:30%; }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #s1 { width:47%; }
+    #s2 { width:47%; }
+    #s3 { width:97%; }
+}
+
+@media (max-width: 767px) {
+    #s1 { width:90%; }
+    #s2 { width:90%; }
+    #s3 { width:90%; }
+}
+
+.responsivo{
+    width: 300px;
+    background-color: aquamarine;
+    font-size: 24px;
+    border: 2px solid black;
+    float: left;
+    margin: 1%;
+}
