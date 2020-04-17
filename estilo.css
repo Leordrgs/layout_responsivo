@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 @media (min-width: 992px) {
     .s1, .s2, .s3 {
@@ -54,8 +56,6 @@
 }
 h2 {
     float: right;
-    position: relative;
-    top: -20px;
 }
 .cor1{
     background-color: rgb(226, 81, 81);
@@ -65,4 +65,7 @@ h2 {
 }
 .cor3{
     background-color: rgb(135, 135, 235);
+}
+p{
+    clear: right;
 }
